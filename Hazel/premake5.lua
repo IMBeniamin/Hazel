@@ -7,7 +7,7 @@ project "Hazel"
 	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
 
-	pchheader "hzpch.h"
+	pchheader "src/hzpch.h"
 	pchsource "src/hzpch.cpp"
 
 	files
